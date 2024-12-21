@@ -1,0 +1,111 @@
+/* Jeronimo Augurusa
+Styling sheet for all the htmls */
+
+/* Index styling */
+body {
+    background-color: lightcoral;
+}
+
+#index-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#programs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#programs-container > a > button {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 20px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    background-color: lightpink;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: bisque;
+}
+
+#hero > h1 {
+    font-size: 50px;
+    color: bisque;
+    text-shadow: 4px 3px #ff0000;
+}
+
+#hero > h3 {
+    margin: auto auto;
+    margin-bottom: 5px;
+}
+
+small {
+    margin-bottom: 3px;
+}
+/* ------------------------------------------------------------------ */
+/* Go Back Button */
+.go-back {
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+}
+
+.go-back > a > button {
+    border-radius: 25px;
+    border-color: red;
+    background-color: bisque;
+    height: 75px;
+    width: 100px;
+    font-size: 20px;
+}
+/* ------------------------------------------------------------------ */
+/* Mouse Chaser */
+#btn-chaser {
+    position: absolute;
+    color: red;
+    font-size: 30px;
+}
+/* ------------------------------------------------------------------ */
+/* Calculator Styling */
+#calculator-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: left;
+}
+
+#inputs > input {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#history-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: max-content;
+    margin: auto auto;
+}
